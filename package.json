@@ -1,6 +1,6 @@
 {
   "name": "@kotaicode/k8s-resources",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A TypeScript library for performing arithmetic and comparison operations on Kubernetes CPU and memory resources",
   "main": "dist/index.js",
   "module": "dist/index.js",
