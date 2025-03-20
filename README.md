@@ -14,7 +14,7 @@ A TypeScript library for performing arithmetic and comparison operations on Kube
 ## Installation
 
 ```bash
-npm install @kotaicodegmbh/k8s-resources
+npm install @kotaicode/k8s-resources
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm install @kotaicodegmbh/k8s-resources
 ### CPU Resources
 
 ```typescript
-import { CPUResource, MemoryResource } from '@kotaicodegmbh/k8s-resources';
+import { CPUResource, MemoryResource } from '@kotaicode/k8s-resources';
 
 // Create CPU resources
 const cpu1 = new CPUResource('100m');  // 100 millicores
@@ -48,7 +48,7 @@ console.log(cpu2.toString());  // "1"
 ### Memory Resources
 
 ```typescript
-import { MemoryResource } from '@kotaicodegmbh/k8s-resources';
+import { MemoryResource } from '@kotaicode/k8s-resources';
 
 // Create memory resources
 const mem1 = new MemoryResource('128Mi');  // 128 mebibytes

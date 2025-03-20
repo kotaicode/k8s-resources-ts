@@ -1,6 +1,6 @@
 # Release Guide
 
-This guide explains how to set up your NPM account and create releases for the `@kotaicodegmbh/k8s-resources` package.
+This guide explains how to set up your NPM account and create releases for the `@kotaicode/k8s-resources` package.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ If you don't have an NPM account:
 
 1. Log in to your NPM account
 2. Go to [npmjs.com/org/create](https://npmjs.com/org/create)
-3. Create an organization named "kotaicodegmbh"
+3. Create an organization named "kotaicode"
 4. Choose the "Free" plan
 5. Add your account as an owner
 
@@ -78,7 +78,7 @@ The GitHub Actions workflow will automatically:
 1. Run tests
 2. Build the package
 3. Create a GitHub release with auto-generated notes
-4. Publish to NPM as `@kotaicodegmbh/k8s-resources`
+4. Publish to NPM as `@kotaicode/k8s-resources`
 
 You can monitor the release progress in:
 - GitHub Actions tab
@@ -95,7 +95,7 @@ You can monitor the release progress in:
 
 ### 2. Check NPM Package
 
-1. Visit [npmjs.com/package/@kotaicodegmbh/k8s-resources](https://npmjs.com/package/@kotaicodegmbh/k8s-resources)
+1. Visit [npmjs.com/package/@kotaicode/k8s-resources](https://npmjs.com/package/@kotaicode/k8s-resources)
 2. Verify the new version is listed
 3. Check the package details
 
@@ -104,7 +104,7 @@ You can monitor the release progress in:
 Test the package installation in a new project:
 
 ```bash
-npm install @kotaicodegmbh/k8s-resources
+npm install @kotaicode/k8s-resources
 ```
 
 ## Troubleshooting
