@@ -1,0 +1,36 @@
+{
+  "name": "k8s-resources",
+  "version": "1.0.0",
+  "description": "A TypeScript library for performing arithmetic and comparison operations on Kubernetes CPU and memory resources",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "docs": "typedoc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "kubernetes",
+    "resources",
+    "cpu",
+    "memory",
+    "arithmetic",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typedoc": "^0.25.12",
+    "typedoc-plugin-markdown": "^3.17.1",
+    "typescript": "^5.3.3"
+  }
+}

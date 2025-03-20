@@ -1,0 +1,66 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# TypeScript/JavaScript
+*.ts text
+*.tsx text
+*.js text
+*.jsx text
+*.json text
+*.mjs text
+*.cjs text
+
+# Documentation
+*.md text diff=markdown
+*.mdx text diff=markdown
+*.txt text
+*.rst text
+
+# Configs
+*.yml text
+*.yaml text
+*.toml text
+*.ini text
+*.config text
+*.lock text -diff
+package-lock.json text -diff
+yarn.lock text -diff
+pnpm-lock.yaml text -diff
+
+# Graphics
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Scripts
+*.sh text eol=lf
+*.bash text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# RC files
+.*rc text
+.env.example text
+
+# Git config files
+.gitattributes text export-ignore
+.gitignore text export-ignore
+.gitkeep text export-ignore
+
+# NPM files
+.npmignore text
+.npmrc text
+
+# Docker
+Dockerfile text
+docker-compose.yml text
+*.dockerfile text
+
+# IDE config files
+.editorconfig text
+.prettierrc text
+.eslintrc text
+tsconfig.json text 

@@ -1,0 +1,16 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "docs/api",
+  "exclude": ["**/*.test.ts"],
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "theme": "default",
+  "name": "Kubernetes Resource Arithmetic Library",
+  "readme": "README.md",
+  "plugin": ["typedoc-plugin-markdown"],
+  "hideBreadcrumbs": true,
+  "sort": ["source-order"],
+  "hidePageTitle": true,
+  "disableSources": true,
+  "cleanOutputDir": true
+} 
