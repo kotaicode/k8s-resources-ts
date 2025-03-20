@@ -1,12 +1,12 @@
 {
-  "name": "k8s-resources",
+  "name": "@kotaicodegmbh/k8s-resources",
   "version": "1.0.0",
   "description": "A TypeScript library for performing arithmetic and comparison operations on Kubernetes CPU and memory resources",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "module": "dist/index.js",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "tsc",
@@ -22,8 +22,19 @@
     "arithmetic",
     "typescript"
   ],
-  "author": "",
+  "author": "Kotaicode",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotaicode/k8s-resources-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kotaicode/k8s-resources-ts/issues"
+  },
+  "homepage": "https://github.com/kotaicode/k8s-resources-ts#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.24",

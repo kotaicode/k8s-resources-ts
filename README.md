@@ -14,7 +14,7 @@ A TypeScript library for performing arithmetic and comparison operations on Kube
 ## Installation
 
 ```bash
-npm install k8s-resources
+npm install @kotaicodegmbh/k8s-resources
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm install k8s-resources
 ### CPU Resources
 
 ```typescript
-import { CPUResource } from 'k8s-resources';
+import { CPUResource, MemoryResource } from '@kotaicodegmbh/k8s-resources';
 
 // Create CPU resources
 const cpu1 = new CPUResource('100m');  // 100 millicores
@@ -48,7 +48,7 @@ console.log(cpu2.toString());  // "1"
 ### Memory Resources
 
 ```typescript
-import { MemoryResource } from 'k8s-resources';
+import { MemoryResource } from '@kotaicodegmbh/k8s-resources';
 
 // Create memory resources
 const mem1 = new MemoryResource('128Mi');  // 128 mebibytes
@@ -179,6 +179,14 @@ The API documentation will be generated in the `docs/api` directory. The documen
 - Examples
 - Error documentation
 - Cross-references between related components
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## License
 
