@@ -1,6 +1,6 @@
 {
   "name": "@kotaicodegmbh/k8s-resources",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A TypeScript library for performing arithmetic and comparison operations on Kubernetes CPU and memory resources",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
